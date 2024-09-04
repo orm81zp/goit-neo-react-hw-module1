@@ -7,9 +7,9 @@ const FriendList = ({ friends }) => {
     <div className="container">
       <div className={css.friends}>
         <ul className={css.friendsList}>
-          {friends.map(({ avatar, name, isOnline }) => {
+          {friends.map(({ id, avatar, name, isOnline }) => {
             return (
-              <li key={name}>
+              <li key={id}>
                 <FriendListItem
                   avatar={avatar}
                   name={name}

@@ -1,0 +1,18 @@
+
+.status {
+  text-transform: capitalize;
+  font-size: 18px;
+}
+
+.online {
+  color: #3b9134;
+}
+
+.offline {
+  color: #f65b5f;
+}
+
+.name {
+  text-transform: capitalize;
+  font-size: 24px;
+}

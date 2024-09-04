@@ -1,0 +1,16 @@
+.profile {
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 350px;
+  margin: 0 auto;
+  border: 1px solid #111111;
+  overflow: hidden;
+}
+
+.profileHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}

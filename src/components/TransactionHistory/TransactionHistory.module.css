@@ -1,0 +1,44 @@
+.transactions {
+  margin: 0 auto;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 18px;
+}
+
+.table,
+.table th,
+.table td {
+  border: 1px solid #2a2a2a;
+}
+
+.table td {
+  text-align: center;
+}
+
+.table > thead > tr {
+  background-color: #2a2a2a;
+  color: #ffffff;
+}
+
+.table th,
+.table td {
+  padding: 15px;
+  text-align: center;
+}
+
+.table .tdType {
+  text-align: left;
+  padding-left: 5%;
+  text-transform: capitalize;
+}
+
+.tdCurrency {
+  text-transform: uppercase;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #d3d3d3;
+}
